@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.everywear.thirdparty"
       label="Thirdparty"
-      version="1.0.7.qualifier"
+      version="1.0.8.qualifier"
       provider-name="DEXELS">
 
    <description url="http://www.example.com/description">
@@ -469,6 +469,41 @@
 
    <plugin
          id="org.ops4j.pax.web.pax-web-jsp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.navajo.client"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.navajo.document"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.navajo.version"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.jzlib"
          download-size="0"
          install-size="0"
          version="0.0.0"
