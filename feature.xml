@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.everywear.thirdparty"
       label="Thirdparty"
-      version="1.0.8.qualifier"
+      version="1.0.9.qualifier"
       provider-name="DEXELS">
 
    <description url="http://www.example.com/description">
@@ -504,6 +504,13 @@
 
    <plugin
          id="org.apache.servicemix.bundles.jzlib"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.openstreetmap.jmapviewer"
          download-size="0"
          install-size="0"
          version="0.0.0"
