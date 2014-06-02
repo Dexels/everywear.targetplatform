@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="563">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="569">
 <locations>
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/osgi" type="Directory"/>
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/pi4j" type="Directory"/>
@@ -16,88 +16,90 @@
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/pax-swissbox" type="Directory"/>
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/navajo" type="Directory"/>
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/openstreetmap" type="Directory"/>
+<location path="${project_loc:com.dexels.everywear.thirdparty}/lib/storage" type="Directory"/>
 </locations>
 <includeBundles>
-<plugin id="org.apache.felix.shell.tui"/>
-<plugin id="org.ops4j.pax.web.pax-web-jsp"/>
-<plugin id="com.springsource.org.json"/>
-<plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
-<plugin id="org.w3c.dom"/>
-<plugin id="org.apache.felix.deploymentadmin"/>
-<plugin id="org.apache.felix.webconsole.plugins.obr"/>
-<plugin id="org.apache.felix.framework"/>
-<plugin id="org.apache.felix.shell.remote"/>
-<plugin id="com.dexels.navajo.document"/>
-<plugin id="com.springsource.mx4j"/>
-<plugin id="org.apache.felix.configadmin"/>
-<plugin id="pi4j-core"/>
-<plugin id="org.apache.felix.webconsole"/>
-<plugin id="org.eclipse.osgi"/>
-<plugin id="org.apache.felix.shell"/>
-<plugin id="org.ops4j.pax.web.pax-web-spi"/>
-<plugin id="org.apache.felix.dependencymanager.shell"/>
 <plugin id="org.apache.felix.gogo.shell" version="0.10.0.v201212101605"/>
-<plugin id="org.apache.felix.inventory"/>
-<plugin id="org.osgi.service.obr"/>
-<plugin id="com.dexels.navajo.version"/>
-<plugin id="org.apache.felix.fileinstall"/>
-<plugin id="org.apache.felix.scr"/>
-<plugin id="org.ops4j.pax.swissbox.core"/>
-<plugin id="org.apache.aries.blueprint.api"/>
-<plugin id="org.apache.aries.jmx.blueprint.core"/>
-<plugin id="org.apache.servicemix.bundles.jzlib"/>
-<plugin id="org.ops4j.pax.web.pax-web-jetty"/>
-<plugin id="org.ops4j.pax.web.pax-web-api"/>
-<plugin id="org.apache.felix.framework.security"/>
-<plugin id="com.springsource.org.apache.commons.fileupload"/>
-<plugin id="org.apache.aries.jmx.api"/>
-<plugin id="org.openstreetmap.jmapviewer"/>
-<plugin id="org.apache.aries.blueprint.core"/>
-<plugin id="org.apache.aries.jmx.blueprint.api"/>
-<plugin id="org.apache.felix.webconsole.plugins.upnp"/>
-<plugin id="slf4j.simple"/>
-<plugin id="com.hazelcast.all"/>
-<plugin id="org.apache.felix.webconsole.plugins.packageadmin"/>
-<plugin id="org.apache.felix.eventadmin"/>
-<plugin id="org.apache.felix.servicediagnostics.plugin"/>
-<plugin id="jackson-mapper-lgpl"/>
-<plugin id="org.apache.felix.log"/>
-<plugin id="org.apache.felix.dependencymanager"/>
-<plugin id="slf4j.api"/>
-<plugin id="org.apache.felix.metatype"/>
-<plugin id="com.springsource.org.apache.commons.io"/>
-<plugin id="org.apache.felix.gogo.command" version="0.12.0"/>
-<plugin id="osgi.core"/>
-<plugin id="org.apache.felix.prefs"/>
-<plugin id="org.ops4j.pax.web.pax-web-deployer"/>
-<plugin id="org.apache.aries.quiesce.api"/>
-<plugin id="org.apache.felix.webconsole.plugins.event"/>
-<plugin id="com.dexels.navajo.client"/>
-<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle"/>
+<plugin id="org.apache.felix.configadmin"/>
 <plugin id="org.ops4j.pax.web.pax-web-runtime"/>
-<plugin id="pi4j-service"/>
-<plugin id="org.apache.felix.bundlerepository"/>
-<plugin id="org.apache.aries.blueprint.cm"/>
-<plugin id="joda-time"/>
-<plugin id="org.apache.felix.deployment.rp.autoconf"/>
-<plugin id="osgi.cmpn"/>
-<plugin id="org.apache.aries.proxy.api"/>
-<plugin id="org.apache.aries.jmx.core"/>
-<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard"/>
-<plugin id="com.google.guava"/>
-<plugin id="org.apache.aries.proxy.impl"/>
-<plugin id="osgi.enterprise"/>
-<plugin id="org.apache.felix.dependencymanager.runtime"/>
-<plugin id="org.apache.felix.webconsole.plugins.ds"/>
+<plugin id="org.apache.felix.inventory"/>
 <plugin id="javax.servlet" version="3.0.0.v201112011016"/>
-<plugin id="org.apache.felix.dependencymanager.compat"/>
-<plugin id="org.apache.aries.blueprint.core.compatibility"/>
+<plugin id="org.ops4j.pax.web.pax-web-spi"/>
+<plugin id="org.apache.felix.webconsole.plugins.ds"/>
+<plugin id="org.apache.servicemix.bundles.jzlib"/>
+<plugin id="org.apache.aries.jmx.api"/>
+<plugin id="org.apache.aries.blueprint.core"/>
+<plugin id="org.apache.felix.dependencymanager.runtime"/>
+<plugin id="org.apache.felix.bundlerepository"/>
+<plugin id="org.apache.felix.webconsole.plugins.obr"/>
+<plugin id="slf4j.simple"/>
+<plugin id="osgi.cmpn"/>
+<plugin id="pi4j-core"/>
+<plugin id="org.w3c.dom"/>
+<plugin id="org.ops4j.pax.web.pax-web-extender-whiteboard"/>
+<plugin id="org.ops4j.pax.swissbox.core"/>
 <plugin id="org.apache.commons.codec"/>
-<plugin id="org.apache.aries.util"/>
+<plugin id="osgi.core"/>
+<plugin id="org.apache.aries.blueprint.cm"/>
+<plugin id="org.apache.felix.shell.remote"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty-bundle"/>
+<plugin id="pi4j-service"/>
+<plugin id="slf4j.api"/>
+<plugin id="org.apache.aries.jmx.blueprint.api"/>
+<plugin id="org.apache.felix.deployment.rp.autoconf"/>
+<plugin id="com.hazelcast.all"/>
+<plugin id="org.apache.felix.shell.tui"/>
+<plugin id="org.apache.felix.fileinstall"/>
+<plugin id="org.apache.felix.metatype"/>
+<plugin id="org.apache.felix.gogo.command" version="0.12.0"/>
+<plugin id="org.apache.felix.eventadmin"/>
+<plugin id="org.mongodb.mongo-java-driver"/>
+<plugin id="org.apache.aries.proxy.impl"/>
+<plugin id="org.apache.felix.servicediagnostics.plugin"/>
+<plugin id="org.apache.felix.webconsole.plugins.event"/>
 <plugin id="org.apache.aries.jmx.whiteboard"/>
-<plugin id="org.apache.felix.gogo.runtime" version="0.10.0.v201209301036"/>
 <plugin id="jackson-core-lgpl"/>
+<plugin id="com.springsource.org.json"/>
 <plugin id="org.apache.felix.resolver"/>
+<plugin id="org.apache.aries.jmx.core"/>
+<plugin id="com.dexels.navajo.document"/>
+<plugin id="org.apache.felix.prefs"/>
+<plugin id="org.apache.aries.util"/>
+<plugin id="org.apache.felix.dependencymanager.shell"/>
+<plugin id="org.apache.felix.dependencymanager"/>
+<plugin id="org.ops4j.pax.web.pax-web-jetty"/>
+<plugin id="org.ops4j.pax.web.pax-web-jsp"/>
+<plugin id="org.eclipse.osgi"/>
+<plugin id="org.apache.felix.webconsole.plugins.upnp"/>
+<plugin id="org.apache.aries.proxy.api"/>
+<plugin id="org.apache.felix.framework"/>
+<plugin id="org.apache.aries.jmx.blueprint.core"/>
+<plugin id="org.apache.felix.webconsole.plugins.packageadmin"/>
+<plugin id="org.apache.aries.blueprint.core.compatibility"/>
+<plugin id="com.dexels.navajo.version"/>
+<plugin id="org.ops4j.pax.web.pax-web-deployer"/>
+<plugin id="org.apache.felix.framework.security"/>
+<plugin id="org.apache.felix.log"/>
+<plugin id="joda-time"/>
+<plugin id="com.dexels.navajo.client"/>
+<plugin id="osgi.enterprise"/>
+<plugin id="org.apache.felix.deploymentadmin"/>
+<plugin id="org.ops4j.pax.web.pax-web-api"/>
+<plugin id="com.springsource.org.apache.commons.fileupload"/>
+<plugin id="org.apache.felix.shell"/>
+<plugin id="org.openstreetmap.jmapviewer"/>
+<plugin id="org.apache.felix.scr"/>
+<plugin id="jackson-mapper-lgpl"/>
+<plugin id="com.google.guava"/>
+<plugin id="org.apache.felix.dependencymanager.compat"/>
+<plugin id="org.apache.felix.webconsole"/>
+<plugin id="org.apache.felix.gogo.runtime" version="0.10.0.v201209301036"/>
+<plugin id="org.apache.aries.quiesce.api"/>
+<plugin id="com.springsource.mx4j"/>
+<plugin id="org.osgi.service.obr"/>
+<plugin id="com.springsource.org.apache.commons.io"/>
+<plugin id="org.apache.felix.webconsole.plugins.memoryusage"/>
+<plugin id="org.apache.aries.blueprint.api"/>
 </includeBundles>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_17]"/>
 </target>

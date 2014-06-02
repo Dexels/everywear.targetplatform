@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.everywear.thirdparty"
       label="Thirdparty"
-      version="1.0.9.qualifier"
+      version="1.0.10.qualifier"
       provider-name="DEXELS">
 
    <description url="http://www.example.com/description">
@@ -511,6 +511,13 @@
 
    <plugin
          id="org.openstreetmap.jmapviewer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.mongodb.mongo-java-driver"
          download-size="0"
          install-size="0"
          version="0.0.0"
