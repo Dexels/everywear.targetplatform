@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.everywear.thirdparty"
       label="Thirdparty"
-      version="1.0.10.qualifier"
+      version="1.0.13.qualifier"
       provider-name="DEXELS">
 
    <description url="http://www.example.com/description">
