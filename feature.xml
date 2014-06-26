@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.everywear.thirdparty"
       label="Thirdparty"
-      version="1.0.13.qualifier"
+      version="1.0.15.qualifier"
       provider-name="DEXELS">
 
    <description url="http://www.example.com/description">
@@ -518,6 +518,20 @@
 
    <plugin
          id="org.mongodb.mongo-java-driver"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
