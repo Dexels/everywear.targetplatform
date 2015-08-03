@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="com.dexels.everywear.thirdparty"
-      label="Thirdparty"
-      version="1.0.16.qualifier"
-      provider-name="DEXELS">
+      label="Sendrato Thirdparty Target platform"
+      version="1.0.19.qualifier"
+      provider-name="Dexels">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -532,6 +532,68 @@
 
    <plugin
          id="ch.qos.logback.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.navajo.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.navajo.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.repository.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.mqtt.impl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.paho.client.mqttv3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.hazelcast"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.junit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.hamcrest.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
