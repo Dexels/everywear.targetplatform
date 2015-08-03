@@ -2,7 +2,7 @@
 <feature
       id="com.dexels.everywear.thirdparty"
       label="Sendrato Thirdparty Target platform"
-      version="1.0.19.qualifier"
+      version="1.0.20.qualifier"
       provider-name="Dexels">
 
    <description url="http://www.example.com/description">
@@ -594,6 +594,13 @@
 
    <plugin
          id="org.hamcrest.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.dexels.navajo.authentication.api"
          download-size="0"
          install-size="0"
          version="0.0.0"
