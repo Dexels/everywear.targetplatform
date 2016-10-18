@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Export platform" sequenceNumber="610">
+<?pde version="3.8"?><target name="Export platform" sequenceNumber="614">
 <locations>
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/xml" type="Directory"/>
 <location path="${project_loc:com.dexels.everywear.thirdparty}/lib/navajo" type="Directory"/>
@@ -34,6 +34,11 @@
 <plugin id="com.dexels.navajo.document"/>
 <plugin id="com.dexels.navajo.version"/>
 <plugin id="com.dexels.repository.api"/>
+<plugin id="com.fasterxml.jackson.core.jackson-annotations"/>
+<plugin id="com.fasterxml.jackson.core.jackson-core"/>
+<plugin id="com.fasterxml.jackson.core.jackson-databind"/>
+<plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-xml"/>
+<plugin id="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml"/>
 <plugin id="com.google.guava" version="15.0.0.v201403281430"/>
 <plugin id="com.hazelcast.all"/>
 <plugin id="com.springsource.mx4j"/>
